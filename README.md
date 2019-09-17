@@ -3,8 +3,8 @@ An implementation of the Deep Neural Decision Forests(dNDF) in PyTorch.
 ![](http://cnyah.com/2018/01/29/dNDF/arch.png)
 
 # Features
-- Two stage optimization as in the original paper [Deep Neural Decision Forests](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kontschieder_Deep_Neural_Decision_ICCV_2015_paper.pdf) (fix the neural network and optimize $\pi$ and then optimize $\Theta$ with the class probability distribution in each leaf node fixed )
-- Jointly training $\pi$ and $\Theta$ proposed by chrischoy in his work [Fully Differentiable Deep Neural Decision Forest](https://github.com/chrischoy/fully-differentiable-deep-ndf-tf)
+- Two stage optimization as in the original paper [Deep Neural Decision Forests](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kontschieder_Deep_Neural_Decision_ICCV_2015_paper.pdf) (fix the neural network and optimize $\pi$ and then optimize Θ with the class probability distribution in each leaf node fixed )
+- Jointly training $\pi$ and Θ proposed by chrischoy in his work [Fully Differentiable Deep Neural Decision Forest](https://github.com/chrischoy/fully-differentiable-deep-ndf-tf)
 - Shallow Neural Decision Forest (sNDF)
 - Deep Neural Decision Forest (dNDF)
 
@@ -31,7 +31,7 @@ MNIST, UCI_Adult, UCI_Letter and UCI_Yeast datasets are available. For datasets 
 
 # Results
 
-Not spending much time on picking hyperparameters and without bells and whistles, I got the accuracy results(obtained by training $\pi$ and $\Theta$ seperately) as follows:
+Not spending much time on picking hyperparameters and without bells and whistles, I got the accuracy results(obtained by training $\pi$ and Θ seperately) as follows:
 
 | Dataset | sNDF | dNDF | 
 | - | :-: | -: | 
