@@ -44,3 +44,4 @@ By adding the nonlinearity in the routing function, the accuraries can reach 0.6
 
 # Note
 Some people may experience the 'loss is NaN' situation which could be caused by the output probability being zero. Please make sure you have normalized your data and used a large enough tree size and depth. In the case that you want to stick with your tree setting, a workaround could be to clamp the output value. 
+
