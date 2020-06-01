@@ -8,6 +8,7 @@ An implementation of the Deep Neural Decision Forests(dNDF) in PyTorch.
 - Shallow Neural Decision Forest (sNDF)
 - Deep Neural Decision Forest (dNDF)
 
+
 # Datasets
 MNIST, UCI_Adult, UCI_Letter and UCI_Yeast datasets are available. For datasets other than MNIST, you need to go to corresponding directory and run the `get_data.sh` script.
 
