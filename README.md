@@ -9,6 +9,7 @@ An implementation of the Deep Neural Decision Forests(dNDF) in PyTorch.
 - Deep Neural Decision Forest (dNDF)
 
 
+
 # Datasets
 MNIST, UCI_Adult, UCI_Letter and UCI_Yeast datasets are available. For datasets other than MNIST, you need to go to corresponding directory and run the `get_data.sh` script.
 
@@ -17,6 +18,7 @@ MNIST, UCI_Adult, UCI_Letter and UCI_Yeast datasets are available. For datasets 
 - PyTorch >= 1.0.0
 - numpy
 - sklearn
+
 
 
 # Usage
@@ -42,6 +44,7 @@ Not spending much time on picking hyperparameters and without bells and whistles
 | UCI_Yeast | 0.6031 | NA |
 
 By adding the nonlinearity in the routing function, the accuraries can reach 0.6502 and 0.9753 respectively on the UCI_Yeast and UCI_Letter.
+
 
 
 # Note
